@@ -248,7 +248,7 @@ Insufficient balance!
 
 ---
 
-# 🧠 C# Concepts Used
+# C# Concepts Used
 
 This project demonstrates:
 
