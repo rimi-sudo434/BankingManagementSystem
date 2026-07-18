@@ -210,7 +210,7 @@ Thank you for using the Banking Management System!
 
 ---
 
-# ❌ Invalid Input Examples
+# Invalid Input Examples
 
 ## Invalid Menu Choice
 
