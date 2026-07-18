@@ -27,15 +27,15 @@ The application provides:
 
 ## ✨ Features
 
-- ✅ Create a new bank account
-- ✅ Deposit money
-- ✅ Withdraw money
-- ✅ View account details
-- ✅ View transaction history
-- ✅ Colored console interface
-- ✅ Menu-driven system
-- ✅ Object-Oriented Programming implementation
-- ✅ Simple and user-friendly interface
+- Create a new bank account
+- Deposit money
+- Withdraw money
+- View account details
+- View transaction history
+- Colored console interface
+- Menu-driven system
+- object-Oriented Programming implementation
+- Simple and user-friendly interface
 
 ---
 
@@ -67,11 +67,6 @@ BankingManagementSystem
 ├── .gitignore
 ├── bin/
 └── obj/
-```
-
-> Note: The `bin/` and `obj/` folders are generated automatically by .NET during the build process. They are ignored by Git and are not uploaded to GitHub.
-
----
 
 ## 📋 Prerequisites
 
@@ -338,4 +333,4 @@ See the [LICENSE](LICENSE) file for more information.
 
 **Rumita Ghosh**
 
-Computer Science Student
+
