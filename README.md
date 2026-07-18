@@ -1,73 +1,48 @@
-````markdown
 # 🏦 Banking Management System
 
-A **Banking Management System** built using **C#** and the **.NET Console Application** framework. This project demonstrates the fundamentals of **Object-Oriented Programming (OOP)**, modular programming, and console-based application development.
+A **Banking Management System** developed using **C#** and the **.NET Console Application** framework.
 
-The application simulates a simple banking environment where users can create accounts, deposit money, withdraw money, view account details, and display transaction history through an interactive **Command-Line Interface (CLI)**.
+This project demonstrates **Object-Oriented Programming (OOP)** concepts, modular programming, and console-based application development. The system allows users to perform basic banking operations such as creating accounts, depositing money, withdrawing money, viewing account details, and checking transaction history through an interactive Command-Line Interface (CLI).
 
-This project was developed as a learning project to strengthen C# programming skills and understand how real-world banking operations can be implemented using object-oriented design.
-
----
-
-# 📖 Table of Contents
-
-- Project Overview
-- Features
-- Technologies Used
-- Project Structure
-- Prerequisites
-- Installation
-- Build the Project
-- Run the Project
-- Application Menu
-- Sample Output
-- Invalid Input Examples
-- C# Concepts Used
-- Learning Outcomes
-- Future Improvements
-- Development Environment
-- Repository
-- License
-- Author
+This project was created for learning purposes to understand C# programming, .NET development, class-based architecture, and GitHub project management.
 
 ---
 
-# 📖 Project Overview
+## 📖 Project Overview
 
-The Banking Management System is a console-based application that demonstrates the implementation of fundamental banking operations using C#.
+The Banking Management System is a console-based application that simulates basic banking operations.
 
-The project is organized into multiple classes, making the source code clean, readable, and maintainable.
+The project is divided into multiple classes to maintain clean code organization and better understanding of object-oriented design.
 
-The application currently supports:
+The application provides:
 
-- Creating a bank account
-- Depositing money
-- Withdrawing money
-- Viewing account details
-- Viewing transaction history
-- Interactive menu-driven interface
-- Colored console output
-
----
-
-# ✨ Features
-
-- ✅ Create Bank Account
-- 💰 Deposit Money
-- 💸 Withdraw Money
-- 📄 View Account Details
-- 📜 View Transaction History
-- 🎨 Colored Console Interface
-- 📋 Menu-Driven Application
-- 🧩 Object-Oriented Programming (OOP)
-- ⚡ Fast Console Execution
+- Account creation
+- Money deposit
+- Money withdrawal
+- Account information display
+- Transaction history tracking
+- Interactive terminal-based navigation
 
 ---
 
-# 🛠️ Technologies Used
+## ✨ Features
 
-| Technology | Description |
-|------------|-------------|
+- ✅ Create a new bank account
+- ✅ Deposit money
+- ✅ Withdraw money
+- ✅ View account details
+- ✅ View transaction history
+- ✅ Colored console interface
+- ✅ Menu-driven system
+- ✅ Object-Oriented Programming implementation
+- ✅ Simple and user-friendly interface
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
 | C# | Programming Language |
 | .NET | Application Framework |
 | Console Application | User Interface |
@@ -77,7 +52,7 @@ The application currently supports:
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 BankingManagementSystem
@@ -88,34 +63,35 @@ BankingManagementSystem
 ├── Program.cs
 ├── BankingManagementSystem.csproj
 ├── README.md
+├── LICENSE
 ├── .gitignore
 ├── bin/
 └── obj/
 ```
 
-> **Note:** `bin/` and `obj/` are automatically generated during compilation. They are excluded from GitHub using `.gitignore`.
+> Note: The `bin/` and `obj/` folders are generated automatically by .NET during the build process. They are ignored by Git and are not uploaded to GitHub.
 
 ---
 
-# 📋 Prerequisites
+## 📋 Prerequisites
 
-Before running this project, ensure you have:
+Before running this project, install:
 
 - .NET SDK 8.0 or later
-- Git (Optional)
-- Ubuntu Linux / Windows / macOS
+- Git
+- Visual Studio Code (Optional)
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/rimi-sudo434/BankingManagementSystem.git
+git clone git@github.com:rimi-sudo434/BankingManagementSystem.git
 ```
 
-Navigate into the project directory:
+Navigate to the project directory:
 
 ```bash
 cd BankingManagementSystem
@@ -123,7 +99,9 @@ cd BankingManagementSystem
 
 ---
 
-# 🔨 Build the Project
+## 🔨 Build the Project
+
+Run:
 
 ```bash
 dotnet build
@@ -131,7 +109,9 @@ dotnet build
 
 ---
 
-# ▶️ Run the Project
+## ▶️ Run the Project
+
+Execute:
 
 ```bash
 dotnet run
@@ -141,7 +121,7 @@ dotnet run
 
 # 🖥️ Application Menu
 
-```text
+```
 =================================
    BANKING MANAGEMENT SYSTEM
 =================================
@@ -158,74 +138,76 @@ dotnet run
 
 # 🧪 Sample Output
 
-## Create Account
+## 1. Create Account
 
-```text
+```
 Enter your choice: 1
 
 Enter Account Number: 1001
 Enter Name: John Doe
 Enter Initial Balance: 5000
 
-Account created successfully.
+Account created successfully!
 ```
 
 ---
 
-## Deposit Money
+## 2. Deposit Money
 
-```text
+```
 Enter your choice: 2
 
 Enter amount to deposit: 2000
 
-₹2000 deposited successfully.
+Money deposited successfully!
 ```
 
 ---
 
-## Withdraw Money
+## 3. Withdraw Money
 
-```text
+```
 Enter your choice: 3
 
 Enter amount to withdraw: 1000
 
-₹1000 withdrawn successfully.
+Money withdrawn successfully!
 ```
 
 ---
 
-## View Account
+## 4. View Account
 
-```text
+```
 Enter your choice: 4
 
 ========== ACCOUNT DETAILS ==========
+
 Account Number : 1001
 Name           : John Doe
-Balance        : ₹6000
+Balance        : 6000
+
 =====================================
 ```
 
 ---
 
-## Transaction History
+## 5. Transaction History
 
-```text
+```
 Enter your choice: 5
 
------ Transaction History -----
+------ Transaction History ------
 
-Deposit   ₹2000
-Withdraw  ₹1000
+Deposit  : 2000
+Withdraw : 1000
 ```
 
 ---
 
-## Exit
+## 6. Exit
 
-```text
+```
 Enter your choice: 6
 
 Thank you for using the Banking Management System!
@@ -237,110 +219,108 @@ Thank you for using the Banking Management System!
 
 ## Invalid Menu Choice
 
-```text
+```
 Enter your choice: 7
 
-Invalid choice.
+Invalid choice!
 ```
 
----
-
-## Another Invalid Menu Choice
-
-```text
+```
 Enter your choice: 8
 
-Invalid choice.
+Invalid choice!
 ```
 
 ---
 
-## Invalid Deposit
+## Invalid Amount
 
-```text
-Enter amount to deposit: -500
+```
+Enter amount: -500
 
-Invalid amount.
+Invalid amount!
 ```
 
 ---
 
 ## Insufficient Balance
 
-```text
+```
 Enter amount to withdraw: 50000
 
-Insufficient balance.
+Insufficient balance!
 ```
 
 ---
 
 # 🧠 C# Concepts Used
 
+This project demonstrates:
+
 - Classes and Objects
 - Constructors
 - Properties
 - Methods
 - Encapsulation
-- Object-Oriented Programming (OOP)
-- Lists (`List<T>`)
+- Lists
 - Conditional Statements
 - Loops
 - Switch Statements
-- User Input
+- Exception Handling
+- User Input Handling
 - Console Colors
 - Modular Programming
+- Object-Oriented Programming
 
 ---
 
 # 🎯 Learning Outcomes
 
-After completing this project, you can understand:
+Through this project, you can learn:
 
-- Building Console Applications in C#
-- Using the .NET CLI
-- Organizing projects into multiple source files
-- Applying Object-Oriented Programming principles
-- Implementing menu-driven applications
-- Managing simple banking operations
-- Using Git for version control
-- Publishing projects on GitHub
+- How to create a C# console application
+- How to organize a .NET project
+- How to use multiple classes
+- How to implement OOP principles
+- How to build menu-driven programs
+- How to use Git and GitHub
+- How to manage a software project
 
 ---
 
 # 🚀 Future Improvements
 
-Possible enhancements include:
+Possible future enhancements:
 
-- Multiple Account Support
-- PIN Authentication
-- Money Transfer
-- Search Account
-- Delete Account
-- File Storage
-- Database Integration
-- Admin Dashboard
-- Interest Calculation
-- Monthly Reports
-- Windows Forms (WinForms) Version
-- ASP.NET Core Web Application
+- Multiple user accounts
+- PIN authentication
+- Money transfer between accounts
+- Account search functionality
+- Delete account option
+- File-based data storage
+- Database integration
+- Admin dashboard
+- Interest calculation
+- Monthly statements
+- GUI version using WinForms/WPF
+- Web version using ASP.NET Core
 
 ---
 
 # 💻 Development Environment
 
-- **Operating System:** Ubuntu Linux
-- **Programming Language:** C#
-- **Framework:** .NET
-- **Editor:** Visual Studio Code
-- **Version Control:** Git
-- **Repository Hosting:** GitHub
+- Operating System: Ubuntu Linux
+- Programming Language: C#
+- Framework: .NET
+- Editor: Visual Studio Code
+- Version Control: Git
+- Hosting Platform: GitHub
 
 ---
 
 # 🔗 Repository
 
-GitHub Repository:
+GitHub:
 
 https://github.com/rimi-sudo434/BankingManagementSystem
 
@@ -350,7 +330,7 @@ https://github.com/rimi-sudo434/BankingManagementSystem
 
 This project is licensed under the **MIT License**.
 
-See the **LICENSE** file for complete license information.
+See the [LICENSE](LICENSE) file for more information.
 
 ---
 
@@ -359,5 +339,3 @@ See the **LICENSE** file for complete license information.
 **Rumita Ghosh**
 
 Computer Science Student
-````
-
