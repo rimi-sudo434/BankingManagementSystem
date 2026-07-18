@@ -8,7 +8,7 @@ This project was created for learning purposes to understand C# programming, .NE
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 The Banking Management System is a console-based application that simulates basic banking operations.
 
@@ -25,7 +25,7 @@ The application provides:
 
 ---
 
-## ✨ Features
+## Features
 
 - Create a new bank account
 - Deposit money
@@ -39,7 +39,7 @@ The application provides:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -52,7 +52,7 @@ The application provides:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 BankingManagementSystem
@@ -68,7 +68,7 @@ BankingManagementSystem
 ├── bin/
 └── obj/
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, install:
 
@@ -78,7 +78,7 @@ Before running this project, install:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository:
 
@@ -94,7 +94,7 @@ cd BankingManagementSystem
 
 ---
 
-## 🔨 Build the Project
+##  Build the Project
 
 Run:
 
@@ -104,7 +104,7 @@ dotnet build
 
 ---
 
-## ▶️ Run the Project
+## Run the Project
 
 Execute:
 
@@ -114,7 +114,7 @@ dotnet run
 
 ---
 
-# 🖥️ Application Menu
+#  Application Menu
 
 ```
 =================================
@@ -131,7 +131,7 @@ dotnet run
 
 ---
 
-# 🧪 Sample Output
+# Sample Output
 
 ## 1. Create Account
 
@@ -269,7 +269,7 @@ This project demonstrates:
 
 ---
 
-# 🎯 Learning Outcomes
+# Learning Outcomes
 
 Through this project, you can learn:
 
@@ -283,7 +283,7 @@ Through this project, you can learn:
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 Possible future enhancements:
 
@@ -302,7 +302,7 @@ Possible future enhancements:
 
 ---
 
-# 💻 Development Environment
+# Development Environment
 
 - Operating System: Ubuntu Linux
 - Programming Language: C#
@@ -313,7 +313,7 @@ Possible future enhancements:
 
 ---
 
-# 🔗 Repository
+#  Repository
 
 GitHub:
 
@@ -321,7 +321,7 @@ https://github.com/rimi-sudo434/BankingManagementSystem
 
 ---
 
-# 📄 License
+#  License
 
 This project is licensed under the **MIT License**.
 
@@ -329,8 +329,5 @@ See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-# 👩‍💻 Author
-
-**Rumita Ghosh**
 
 
